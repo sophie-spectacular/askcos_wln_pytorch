@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+wlnfw.egg-info/
+
+models
+*/models
+*/data
+*.txt.proc
+*/exploration_scripts/test_outputs
+exploration_scripts/Miniconda3-latest-Linux-x86_64.sh
+
+.idea
+.keras
+
+.python_history
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+.venv/

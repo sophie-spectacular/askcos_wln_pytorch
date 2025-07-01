@@ -1,0 +1,14 @@
+name: wlnfw
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - molvs=0.1.1
+  - numpy
+  - python=3.8
+  - rdkit
+  - scipy
+  - tensorflow=2.4
+  - tqdm
+  - pandas
+  - matplotlib

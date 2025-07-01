@@ -1,0 +1,33 @@
+# http://editorconfig.org
+
+root = true
+
+[*]
+indent_style = space
+indent_size = 4
+insert_final_newline = true
+trim_trailing_whitespace = true
+end_of_line = lf
+charset = utf-8
+
+[**.{sh,bash}]
+max_line_length = 140
+indent_size = 4
+indent_style = tab
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.{py,ipy}]
+max_line_length = 140
+
+[**.{json,yaml,yml}]
+indent_size = 2
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# Makefiles always use tabs for indentation
+[Makefile]
+indent_style = tab
+
+[docs/**.md]
+max_line_length = 100
